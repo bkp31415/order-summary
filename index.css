@@ -1,0 +1,129 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+body {
+  background-color: rgba(173, 169, 169, 0.473);
+}
+.image {
+  border-radius: 15px 15px 0px 0px;
+  height: 200px;
+  background: url("/images/illustration-hero.svg") no-repeat center;
+}
+
+.summary {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.summary > p {
+  padding: 0px 40px;
+}
+
+.container {
+  background-color: white;
+  display: block;
+  /* display: flex;
+  flex-direction: column; */
+  height: 650px;
+  width: 400px;
+  border-radius: 15px;
+  margin: 150px auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.plan {
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.082);
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  align-self: center;
+  margin: 0px;
+  height: 50px;
+  width: 50px;
+  background: url("/images/icon-music.svg") no-repeat center;
+}
+
+h3 {
+  margin: 0px 0px;
+}
+p {
+  margin: 0px 0px;
+  color: grey;
+}
+.text {
+  align-self: center;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.link {
+  margin-left: 20px;
+  align-self: center;
+  float: right;
+}
+
+#change {
+  margin: 40px;
+  font-weight: bold;
+}
+
+#change:hover {
+  color: grey;
+}
+
+.content {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.proceed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-style: hidden;
+  color: white;
+  background-color: hsla(228, 72%, 44%, 0.788);
+  width: 330px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: hsla(228, 72%, 44%, 0.575);
+}
+
+#cancel {
+  margin-bottom: 45px;
+  color: grey;
+  font-weight: bolder;
+}
+
+#cancel:hover {
+  color: black;
+}
